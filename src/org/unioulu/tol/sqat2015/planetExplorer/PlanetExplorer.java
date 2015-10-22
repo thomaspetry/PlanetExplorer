@@ -29,7 +29,7 @@ public class PlanetExplorer {
 		}
 		
 		for (int i = 0; i < command.length(); i++) {
-			cmd = command.substring(i, i);
+			cmd = command.substring(i, i+1);
 			System.out.println(cmd);
 			System.out.println(facing);
 			if (cmd == "r") {
