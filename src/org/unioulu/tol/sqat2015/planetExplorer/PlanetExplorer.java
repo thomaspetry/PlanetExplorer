@@ -23,16 +23,16 @@ public class PlanetExplorer {
 	}
 	
 	public String executeCommand(String command){
-		char cmd = "";
+		String cmd = "";
 		if (command == "") {
 			return posx + "," + posy + "," + facing;
 		}
 		
 		for (int i = 0; i < command.length(); i++) {
-			cmd = command.charAt(i);
+			cmd = command.substring(i, i+1);
 			System.out.println(cmd);
 			System.out.println(facing);
-			if (Character.toString(cmd) == "r") {
+			if (cmd == "r") {
 				if (facing == "N")
 					facing = "E";
 				else {
