@@ -66,34 +66,66 @@ public class PlanetExplorer {
 			}
 			
 			if (cmd == "f") {
-				if (facing == "N")
+				if (facing == "N"){
+					if (posy + 1 < gridy)
 					posy = posy + 1;
+					else
+						posy = 0;
+				}
 				else {
-					if (facing == "W") 
+					if (facing == "W") {
+						if (posx > 0)
 						posx = posx - 1;
+						else
+							posx = gridx -1;
+					}
 					else {
-						if (facing == "S") 
+						if (facing == "S") {
+							if (posy > 0)
 							posy = posy - 1;
+							else
+								posy = gridy -1;
+						}
 						else {
-							if (facing == "E") 
-								posx = posx + 1;
+							if (facing == "E") {
+								if (posx + 1 < gridx)
+									posx = posx + 1;
+									else
+										posx = 0;
+							}
 						}
 					}
 				}
 			}
 			
 			if (cmd == "b") {
-				if (facing == "N")
+				if (facing == "N") {
+					if (posy > 0)
 					posy = posy - 1;
+					else
+						posy = gridy -1;
+				}
 				else {
-					if (facing == "W") 
-						posx = posx + 1;
+					if (facing == "W") {
+						if (posx + 1 < gridx)
+							posx = posx + 1;
+							else
+								posx = 0;
+					}
 					else {
-						if (facing == "S") 
-							posy = posy + 1;
+						if (facing == "S") {
+							if (posy + 1 < gridy)
+								posy = posy + 1;
+								else
+									posy = 0;
+						}
 						else {
-							if (facing == "E") 
+							if (facing == "E") {
+								if (posx > 0)
 								posx = posx - 1;
+								else
+									posx = gridx -1;
+							}
 						}
 					}
 				}
