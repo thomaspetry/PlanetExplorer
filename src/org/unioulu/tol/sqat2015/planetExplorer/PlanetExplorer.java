@@ -48,6 +48,7 @@ public class PlanetExplorer {
 					}
 				}
 			}
+			System.out.println(facing);
 			if (cmd == "l") {
 				if (facing == "N") 
 					facing = "W";
