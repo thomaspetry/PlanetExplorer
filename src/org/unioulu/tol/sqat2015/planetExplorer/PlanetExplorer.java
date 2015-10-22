@@ -7,7 +7,7 @@ public class PlanetExplorer {
 	
 	public int posx = 0;
 	public int posy = 0;
-	private String facing = "N";
+	public String facing = "N";
 	public int gridx = 0;
 	public int gridy = 0;
 	
@@ -32,14 +32,23 @@ public class PlanetExplorer {
 			cmd = command.substring(i, i+1);
 			System.out.println(cmd);
 			if (cmd == "r") {
-				if (getFacing() == "N") 
-					setFacing("E");
-				if (facing == "E") 
-					facing = "S";
-				if (facing == "S") 
-					facing = "W";
-				if (facing == "W") 
-					facing = "N";
+				if (facing == "N") 
+					facing = "E";
+				else {
+					if (facing == "E") 
+						facing = "S";
+					else {
+						if (facing == "S") 
+							facing = "W";
+						else {
+							if (facing == "W") 
+								facing = "N";
+						}
+					}
+				}
+				
+				
+				
 				System.out.println(facing);
 			}
 			if (cmd == "l") {
