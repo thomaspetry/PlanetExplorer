@@ -32,8 +32,8 @@ public class PlanetExplorer {
 			cmd = command.substring(i, i+1);
 			System.out.println(cmd);
 			if (cmd == "r") {
-				if (facing == "N") 
-					this.facing = "E";
+				if (getFacing() == "N") 
+					setFacing("E");
 				if (facing == "E") 
 					facing = "S";
 				if (facing == "S") 
