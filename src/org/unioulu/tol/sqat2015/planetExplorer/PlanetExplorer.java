@@ -14,12 +14,12 @@ public class PlanetExplorer {
 		Example use:
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
-		PlanetExplorer explorer = new PlanetExplorer(100,100,"");
+	//	PlanetExplorer explorer = new PlanetExplorer(100,100,"");
 		
 	}
 	
 	public String executeCommand(String command){
-		if (command == "2") {
+		if (command == "") {
 			return "0,0,N";
 		}
 		
