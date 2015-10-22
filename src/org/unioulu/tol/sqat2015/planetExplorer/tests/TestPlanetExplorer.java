@@ -19,4 +19,10 @@ public class TestPlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"");
 		assertEquals("0,0,E", explorer.executeCommand("r"));
 	}
+	
+	@Test
+	public void testTurningRRNewFacingS() {
+		PlanetExplorer explorer = new PlanetExplorer(100,100,"");
+		assertEquals("0,0,S", explorer.executeCommand("rr"));
+	}
 }

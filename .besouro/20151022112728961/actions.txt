@@ -115,3 +115,9 @@ EditAction 1445506299110 PlanetExplorer.java 2292 2 6 0
 UnitTestCaseAction 1445506299422 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445506299423 TestPlanetExplorer OK
 EditAction 1445506311319 PlanetExplorer.java 2212 2 6 0
+UnitTestCaseAction 1445506311624 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445506311625 TestPlanetExplorer OK
+RefactoringAction 1445506322893 TestPlanetExplorer.java ADD void testTurningRNewFacingE()/2 METHOD
+RefactoringAction 1445506327404 TestPlanetExplorer.java RENAME testTurningRNewFacingE()/2=>void testTurningRRNewFacingE() METHOD
+RefactoringAction 1445506330418 TestPlanetExplorer.java RENAME testTurningRRNewFacingE()=>void testTurningRRNewFacingS() METHOD
+EditAction 1445506334993 TestPlanetExplorer.java 739 3 6 3
