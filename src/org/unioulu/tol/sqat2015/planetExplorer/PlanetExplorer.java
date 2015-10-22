@@ -49,15 +49,21 @@ public class PlanetExplorer {
 				}
 			}
 			System.out.println(facing);
-			if (cmd == "l") {
-				if (facing == "N") 
+			if (cmd == "s") {
+				if (facing == "N")
 					facing = "W";
-				if (facing == "W") 
-					facing = "S";
-				if (facing == "S") 
-					facing = "E";
-				if (facing == "E") 
-					facing = "N";
+				else {
+					if (facing == "W") 
+						facing = "S";
+					else {
+						if (facing == "S") 
+							facing = "E";
+						else {
+							if (facing == "E") 
+								facing = "N";
+						}
+					}
+				}
 			}
 		}
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
