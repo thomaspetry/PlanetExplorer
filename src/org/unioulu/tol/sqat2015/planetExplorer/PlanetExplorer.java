@@ -75,43 +75,5 @@ public class PlanetExplorer {
 		return posx + "," + posy + "," + facing;
 	}
 
-	public int getPosx() {
-		return posx;
-	}
-
-	public void setPosx(int posx) {
-		this.posx = posx;
-	}
-
-	public int getPosy() {
-		return posy;
-	}
-
-	public void setPosy(int posy) {
-		this.posy = posy;
-	}
-
-	public String getFacing() {
-		return facing;
-	}
-
-	public void setFacing(String facing) {
-		this.facing = facing;
-	}
-
-	public int getGridx() {
-		return gridx;
-	}
-
-	public void setGridx(int gridx) {
-		this.gridx = gridx;
-	}
-
-	public int getGridy() {
-		return gridy;
-	}
-
-	public void setGridy(int gridy) {
-		this.gridy = gridy;
-	}
+	
 }
