@@ -74,3 +74,16 @@ CompilationAction 1445505964078 PlanetExplorer.java
 UnitTestCaseAction 1445505964297 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445505964297 TestPlanetExplorer FAIL
 EditAction 1445506022929 PlanetExplorer.java 2194 2 6 0
+UnitTestCaseAction 1445506023754 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445506023755 TestPlanetExplorer FAIL
+RefactoringAction 1445506070946 PlanetExplorer.java ADD int getPosx() METHOD
+RefactoringAction 1445506070947 PlanetExplorer.java ADD void setPosx(int) METHOD
+RefactoringAction 1445506070948 PlanetExplorer.java ADD int getPosy() METHOD
+RefactoringAction 1445506070948 PlanetExplorer.java ADD void setPosy(int) METHOD
+RefactoringAction 1445506070949 PlanetExplorer.java ADD String getFacing() METHOD
+RefactoringAction 1445506070949 PlanetExplorer.java ADD void setFacing(String) METHOD
+RefactoringAction 1445506070950 PlanetExplorer.java ADD int getGridx() METHOD
+RefactoringAction 1445506070950 PlanetExplorer.java ADD void setGridx(int) METHOD
+RefactoringAction 1445506070951 PlanetExplorer.java ADD int getGridy() METHOD
+RefactoringAction 1445506070951 PlanetExplorer.java ADD void setGridy(int) METHOD
+EditAction 1445506094654 PlanetExplorer.java 2774 12 16 0
