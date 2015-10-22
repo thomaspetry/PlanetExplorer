@@ -1,9 +1,12 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
-// ID:
+// ID: 136
 // Finish time:
 public class PlanetExplorer {
+	public int posx = 0;
+	public int posy = 0;
+	public String facing = "N";
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -11,6 +14,8 @@ public class PlanetExplorer {
 		Example use:
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
+		PlanetExplorer explorer = new PlanetExplorer(100,100,"");
+		
 	}
 	
 	public String executeCommand(String command){

@@ -1,0 +1,14 @@
+FileOpenedAction 1445502449260 TestPlanetExplorer.java 228 1 1 0
+RefactoringAction 1445504101897 TestPlanetExplorer.java RENAME test()=>void testLanding() METHOD
+RefactoringAction 1445504106414 TestPlanetExplorer.java RENAME testLanding()=>void testLandingPos() METHOD
+RefactoringAction 1445504107430 TestPlanetExplorer.java RENAME testLandingPos()=>void testLandingPos00() METHOD
+RefactoringAction 1445504254152 PlanetExplorer.java ADD int posx FIELD
+RefactoringAction 1445504265206 PlanetExplorer.java ADD int posy FIELD
+RefactoringAction 1445504277243 PlanetExplorer.java ADD String fac FIELD
+RefactoringAction 1445504279763 PlanetExplorer.java RENAME fac=>String facing FIELD
+FileOpenedAction 1445504339793 TestBowlingScoreCalculator.java 2007 7 45 7
+RefactoringAction 1445504479563 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
+RefactoringAction 1445504532134 TestPlanetExplorer.java ADD PlanetExplorer explorer FIELD
+FileOpenedAction 1445504569578 Frame.java 1085 6 11 0
+RefactoringAction 1445504595327 TestPlanetExplorer.java REMOVE explorer FIELD
+EditAction 1445504673057 PlanetExplorer.java 1487 2 2 0
