@@ -23,10 +23,34 @@ public class PlanetExplorer {
 	}
 	
 	public String executeCommand(String command){
+		String cmd = "";
 		if (command == "") {
 			return posx + "," + posy + "," + facing;
 		}
 		
+		for (int i = 0; i < command.length(); i++) {
+			cmd = command.substring(i, i);
+			if (cmd == "r") {
+				if (facing == "N") 
+					facing = "E";
+				if (facing == "E") 
+					facing = "S";
+				if (facing == "S") 
+					facing = "W";
+				if (facing == "W") 
+					facing = "N";
+			}
+			if (cmd == "l") {
+				if (facing == "N") 
+					facing = "W";
+				if (facing == "W") 
+					facing = "S";
+				if (facing == "S") 
+					facing = "E";
+				if (facing == "E") 
+					facing = "N";
+			}
+		}
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 

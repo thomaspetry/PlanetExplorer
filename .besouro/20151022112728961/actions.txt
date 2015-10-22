@@ -36,3 +36,12 @@ RefactoringAction 1445504982703 PlanetExplorer.java ADD int gridx FIELD
 RefactoringAction 1445504986219 PlanetExplorer.java ADD int gridx/2 FIELD
 RefactoringAction 1445504991733 PlanetExplorer.java RENAME gridx/2=>int gridy FIELD
 EditAction 1445505138984 PlanetExplorer.java 1578 2 4 0
+UnitTestCaseAction 1445505139292 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445505139293 TestPlanetExplorer OK
+RefactoringAction 1445505478222 TestPlanetExplorer.java ADD void testLandingPos00()/2 METHOD
+RefactoringAction 1445505483735 TestPlanetExplorer.java RENAME testLandingPos00()/2=>void test() METHOD
+RefactoringAction 1445505486748 TestPlanetExplorer.java RENAME test()=>void testTurning() METHOD
+RefactoringAction 1445505491760 TestPlanetExplorer.java RENAME testTurning()=>void testTurningR() METHOD
+RefactoringAction 1445505496773 TestPlanetExplorer.java RENAME testTurningR()=>void testTurningRNewFacing() METHOD
+RefactoringAction 1445505498786 TestPlanetExplorer.java RENAME testTurningRNewFacing()=>void testTurningRNewFacingE() METHOD
+EditAction 1445505508826 PlanetExplorer.java 2102 2 6 0
