@@ -7,7 +7,7 @@ public class PlanetExplorer {
 	
 	public int posx = 0;
 	public int posy = 0;
-	public String facing = "N";
+	private String facing = "N";
 	public int gridx = 0;
 	public int gridy = 0;
 	
