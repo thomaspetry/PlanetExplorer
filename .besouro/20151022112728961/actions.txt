@@ -144,3 +144,8 @@ UnitTestCaseAction 1445506534179 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445506534180 TestPlanetExplorer FAIL
 RefactoringAction 1445506558043 TestPlanetExplorer.java REMOVE testTurningRRNewFacingS() METHOD
 EditAction 1445506562556 TestPlanetExplorer.java 749 2 4 2
+UnitTestCaseAction 1445506562836 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445506562837 TestPlanetExplorer OK
+RefactoringAction 1445506574734 TestPlanetExplorer.java ADD void testTurningRRNewFacingS() METHOD
+RefactoringAction 1445506578746 TestPlanetExplorer.java REMOVE testTurningRNewFacingE() METHOD
+EditAction 1445506582606 TestPlanetExplorer.java 748 2 4 2

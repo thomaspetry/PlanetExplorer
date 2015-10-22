@@ -14,15 +14,15 @@ public class TestPlanetExplorer {
 		assertEquals("0,0,N", explorer.executeCommand(""));
 	}
 	
-	@Test
-	public void testTurningRNewFacingE() {
-		PlanetExplorer explorer = new PlanetExplorer(100,100,"");
-		assertEquals("0,0,E", explorer.executeCommand("r"));
-	}
-	
 //	@Test
-//	public void testTurningRRNewFacingS() {
+//	public void testTurningRNewFacingE() {
 //		PlanetExplorer explorer = new PlanetExplorer(100,100,"");
-//		assertEquals("0,0,S", explorer.executeCommand("rr"));
+//		assertEquals("0,0,E", explorer.executeCommand("r"));
 //	}
+	
+	@Test
+	public void testTurningRRNewFacingS() {
+		PlanetExplorer explorer = new PlanetExplorer(100,100,"");
+		assertEquals("0,0,S", explorer.executeCommand("r"));
+	}
 }
