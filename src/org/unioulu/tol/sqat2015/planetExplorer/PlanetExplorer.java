@@ -35,18 +35,18 @@ public class PlanetExplorer {
 			if (cmd == "r") {
 				if (facing == "N")
 					facing = "E";
-				else {
-					if (facing == "E") 
-						facing = "S";
-					else {
-						if (facing == "S") 
-							facing = "W";
-						else {
-							if (facing == "W") 
-								facing = "N";
-						}
-					}
-				}
+//				else {
+//					if (facing == "E") 
+//						facing = "S";
+//					else {
+//						if (facing == "S") 
+//							facing = "W";
+//						else {
+//							if (facing == "W") 
+//								facing = "N";
+//						}
+//					}
+//				}
 			}
 			System.out.println(facing);
 			if (cmd == "l") {
