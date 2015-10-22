@@ -87,3 +87,6 @@ RefactoringAction 1445506070950 PlanetExplorer.java ADD void setGridx(int) METHO
 RefactoringAction 1445506070951 PlanetExplorer.java ADD int getGridy() METHOD
 RefactoringAction 1445506070951 PlanetExplorer.java ADD void setGridy(int) METHOD
 EditAction 1445506094654 PlanetExplorer.java 2774 12 16 0
+UnitTestCaseAction 1445506095803 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445506095804 TestPlanetExplorer FAIL
+EditAction 1445506112769 PlanetExplorer.java 2769 12 16 0
