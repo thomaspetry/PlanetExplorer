@@ -11,7 +11,6 @@ public class TestPlanetExplorer {
 	@Test
 	public void testLandingPos00() {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"");
-	//	String exploreract = explorer.executeCommand("");
 		assertEquals("0,0,N", explorer.executeCommand(""));
 	}
 }
