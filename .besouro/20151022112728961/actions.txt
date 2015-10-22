@@ -45,3 +45,4 @@ RefactoringAction 1445505491760 TestPlanetExplorer.java RENAME testTurning()=>vo
 RefactoringAction 1445505496773 TestPlanetExplorer.java RENAME testTurningR()=>void testTurningRNewFacing() METHOD
 RefactoringAction 1445505498786 TestPlanetExplorer.java RENAME testTurningRNewFacing()=>void testTurningRNewFacingE() METHOD
 EditAction 1445505508826 PlanetExplorer.java 2102 2 6 0
+EditAction 1445505508947 TestPlanetExplorer.java 564 2 4 2
