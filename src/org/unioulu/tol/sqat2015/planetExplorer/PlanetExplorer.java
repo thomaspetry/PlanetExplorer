@@ -19,6 +19,9 @@ public class PlanetExplorer {
 	}
 	
 	public String executeCommand(String command){
+		if (command == "") {
+			return "0,0,N";
+		}
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
