@@ -121,3 +121,6 @@ RefactoringAction 1445506322893 TestPlanetExplorer.java ADD void testTurningRNew
 RefactoringAction 1445506327404 TestPlanetExplorer.java RENAME testTurningRNewFacingE()/2=>void testTurningRRNewFacingE() METHOD
 RefactoringAction 1445506330418 TestPlanetExplorer.java RENAME testTurningRRNewFacingE()=>void testTurningRRNewFacingS() METHOD
 EditAction 1445506334993 TestPlanetExplorer.java 739 3 6 3
+UnitTestCaseAction 1445506335291 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445506335292 TestPlanetExplorer FAIL
+EditAction 1445506380133 PlanetExplorer.java 2241 2 6 0
