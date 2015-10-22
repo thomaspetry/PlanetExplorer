@@ -30,7 +30,7 @@ public class PlanetExplorer {
 		
 		for (int i = 0; i < command.length(); i++) {
 			cmd = command.substring(i, i+1);
-			return cmd;
+			System.out.println(cmd);
 			if (cmd == "r") {
 				if (facing == "N") 
 					facing = "E";
@@ -40,6 +40,7 @@ public class PlanetExplorer {
 					facing = "W";
 				if (facing == "W") 
 					facing = "N";
+				System.out.println(facing);
 			}
 			if (cmd == "l") {
 				if (facing == "N") 
