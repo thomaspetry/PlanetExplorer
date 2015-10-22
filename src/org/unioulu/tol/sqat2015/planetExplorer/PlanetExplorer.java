@@ -66,22 +66,40 @@ public class PlanetExplorer {
 				}
 			}
 			
-			if (cmd == "s") {
+			if (cmd == "f") {
 				if (facing == "N")
-					facing = "W";
+					posy = posy + 1;
 				else {
 					if (facing == "W") 
-						facing = "S";
+						posx = posx - 1;
 					else {
 						if (facing == "S") 
-							facing = "E";
+							posy = posy - 1;
 						else {
 							if (facing == "E") 
-								facing = "N";
+								posx = posx + 1;
 						}
 					}
 				}
 			}
+			
+			if (cmd == "b") {
+				if (facing == "N")
+					posy = posy - 1;
+				else {
+					if (facing == "W") 
+						posx = posx + 1;
+					else {
+						if (facing == "S") 
+							posy = posy + 1;
+						else {
+							if (facing == "E") 
+								posx = posx - 1;
+						}
+					}
+				}
+			}
+			
 		}
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
