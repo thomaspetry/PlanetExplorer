@@ -4,9 +4,13 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 // ID: 136
 // Finish time:
 public class PlanetExplorer {
+	
 	public int posx = 0;
 	public int posy = 0;
 	public String facing = "N";
+	public int gridx = 0;
+	public int gridy = 0;
+	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -14,13 +18,13 @@ public class PlanetExplorer {
 		Example use:
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
-	//	PlanetExplorer explorer = new PlanetExplorer(100,100,"");
-		
+		gridx = x;
+		gridy = y;
 	}
 	
 	public String executeCommand(String command){
 		if (command == "") {
-			return "0,0,N";
+			return posx + "," + posy + "," + facing;
 		}
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)

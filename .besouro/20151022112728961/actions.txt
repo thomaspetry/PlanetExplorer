@@ -30,3 +30,9 @@ EditAction 1445504894337 TestPlanetExplorer.java 392 1 2 1
 UnitTestCaseAction 1445504894640 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445504894640 TestPlanetExplorer FAIL
 EditAction 1445504920700 TestPlanetExplorer.java 391 1 2 1
+UnitTestCaseAction 1445504921010 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445504921011 TestPlanetExplorer OK
+RefactoringAction 1445504982703 PlanetExplorer.java ADD int gridx FIELD
+RefactoringAction 1445504986219 PlanetExplorer.java ADD int gridx/2 FIELD
+RefactoringAction 1445504991733 PlanetExplorer.java RENAME gridx/2=>int gridy FIELD
+EditAction 1445505138984 PlanetExplorer.java 1578 2 4 0
