@@ -23,6 +23,6 @@ public class TestPlanetExplorer {
 	@Test
 	public void testTurningRRNewFacingS() {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"");
-		assertEquals("0,0,S", explorer.executeCommand("r "));
+		assertEquals("0,0,S", explorer.executeCommand("rr"));
 	}
 }
