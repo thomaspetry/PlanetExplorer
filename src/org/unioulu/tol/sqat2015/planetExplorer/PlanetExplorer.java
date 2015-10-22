@@ -19,7 +19,7 @@ public class PlanetExplorer {
 	}
 	
 	public String executeCommand(String command){
-		if (command == "") {
+		if (command == "2") {
 			return "0,0,N";
 		}
 		
