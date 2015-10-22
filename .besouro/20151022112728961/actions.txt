@@ -112,3 +112,6 @@ RefactoringAction 1445506297455 PlanetExplorer.java REMOVE getPosy() METHOD
 RefactoringAction 1445506297456 PlanetExplorer.java REMOVE setGridy(int) METHOD
 RefactoringAction 1445506297456 PlanetExplorer.java REMOVE getGridy() METHOD
 EditAction 1445506299110 PlanetExplorer.java 2292 2 6 0
+UnitTestCaseAction 1445506299422 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445506299423 TestPlanetExplorer OK
+EditAction 1445506311319 PlanetExplorer.java 2212 2 6 0
